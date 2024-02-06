@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    width: 25%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav{
+    display: flex;
+    display: inline;
+
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    background-color: #131921;
+    height: 65px;
+}
+.nav-list ul {
+    padding-top: 20px;
+
+}
+.nav-list ul li{
+    display: inline;
+    padding-left: 50px;
+
+}
+.nav-list ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.gray {
+    display: inline-block;
+    margin-left: -355px;
+    color: gray;
+    margin-top: 12px;
+    font-size: small;
+}
+.pincode img {
+    margin-left: -375px;
+    position: relative;
+    top: -8px;
+}
+.pincode {
+    margin-left: 35px;
+
+
+}
+.white{
+    margin-left: -355px;
+    color: white;
+    position: relative;
+    top: -30px;
+    font-weight: 700;
+}
+.searchicon img{
+    width: 30px;
+    margin-top: 3px;
+}
+.searchicon{
+    background-color: orange;
+    border: 0;
+    border-radius: 20%;
+    margin-left: 0px;
+    width: 39px;
+    justify-content: center;
+    display: grid;
+}
